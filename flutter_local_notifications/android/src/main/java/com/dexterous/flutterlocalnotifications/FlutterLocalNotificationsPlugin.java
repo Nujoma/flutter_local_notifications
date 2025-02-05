@@ -1051,11 +1051,7 @@ public class FlutterLocalNotificationsPlugin
       bigPictureStyle.bigLargeIcon((Bitmap) null);
     } else {
       if (bigPictureStyleInformation.largeIcon != null) {
-        bigPictureStyle.bigLargeIcon(
-            getBitmapFromSource(
-                context,
-                bigPictureStyleInformation.largeIcon,
-                bigPictureStyleInformation.largeIconBitmapSource));
+        bigPictureStyle.bigLargeIcon((Icon) null);
       }
     }
     bigPictureStyle.bigPicture(
